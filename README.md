@@ -4,14 +4,14 @@
 
 ---
 
-[Git Credential Manager][gcm] (GCM) is a secure
+[Git Credential Manager][gcm] (
 [Git credential helper][git-credential-helper] built on [.NET][dotnet] that runs
 on Windows, macOS, and Linux. It aims to provide a consistent and secure
 authentication experience, including multi-factor auth, to every major source
 control hosting service and platform.
 
 GCM supports (in alphabetical order) [Azure DevOps][azure-devops], Azure DevOps
-Server (formerly Team Foundation Server), Bitbucket, GitHub, and GitLab.
+Server (formerly Team Foundation Server), Bitbucket, Gi
 Compare to Git's [built-in credential helpers][git-tools-credential-storage]
 (Windows: wincred, macOS: osxkeychain, Linux: gnome-keyring/libsecret), which
 provide single-factor authentication support for username/password only.
@@ -41,7 +41,7 @@ Secure platform credential storage [(see more)][gcm-credstores]|&#10003;|&#10003
 Multi-factor authentication support for Azure DevOps|&#10003;|&#10003;|&#10003;
 Two-factor authentication support for GitHub|&#10003;|&#10003;|&#10003;
 Two-factor authentication support for Bitbucket|&#10003;|&#10003;|&#10003;
-Two-factor authentication support for GitLab|&#10003;|&#10003;|&#10003;
+Two-factor authentication support for GitLab|&#10003;|&#10003;|&#
 Windows Integrated Authentication (NTLM/Kerberos) support|&#10003;|_N/A_|_N/A_
 Basic HTTP authentication support|&#10003;|&#10003;|&#10003;
 Proxy support|&#10003;|&#10003;|&#10003;
@@ -67,7 +67,7 @@ Git that are not compatible.
 
   This version of Git introduced a breaking change with parsing credential
   configuration that GCM relies on. This issue was fixed in commit
-  [`12294990`][gcm-commit-12294990] of the Git project, and released in Git
+  [`12294990`][gcm-commit-12294990] of the Git project, and released in Gi
   2.27.0.
 
 ## How to use
@@ -88,7 +88,7 @@ Read full command line usage [here][gcm-usage].
 
 See detailed information [here][gcm-http-proxy].
 
-## Additional Resources
+## Additional R
 
 See the [documentation index][docs-index] for links to additional resources.
 
